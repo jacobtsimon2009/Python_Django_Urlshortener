@@ -10,12 +10,11 @@ Place the zipped folder in your machine and extract the content
 Navigate to folder, “shorturl “ in command prompt and type
 Python manage.py makemigrations
 Python manage.py migrate
-              This will create and initialize the database shorturl_db
-
+This will create and initialize the database shorturl_db
 Type Python load_db.py to load data into shorturl_db from file words (14).txt located in the same folder
 Verify the data by connecting to data base using sqlite3 shorturl_db
 Type Python manage.py runserver to start the development server
 Copy the http address from command prompt and test using any standard browser
-       Note: The database is inside the zipped folder. But I have placed it outside as well
+Note: The database is inside the zipped folder. But I have placed it outside as well
 
        Note : The above instructions are for a windows machine
